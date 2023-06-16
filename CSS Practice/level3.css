@@ -1,0 +1,64 @@
+/* Units in CSS 
+  Relative (%, em, rem)
+
+  1em means relative to font size of parent
+ 
+*/
+/* 
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: yellow; 
+    margin-left: 10%;
+    font-size: 0.5em;  
+    width: 5rem;
+} */
+
+
+/* # Positions - sets how an element is positioned in a document
+
+  position:static/relative/fixed/absolute; 
+  
+   */
+
+  div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+  }
+
+  #box1{
+    position: static;
+  }
+
+  #box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    /* left: 10px; move to our right hand side */
+    /* right: 20px; move to our left hand side */
+}
+
+#box3{
+    /* position: absolute; */
+    position: sticky;
+    top: 0px;
+    left: 20px ;
+}
+
+#box4{
+    position: fixed;
+    top: 0;
+    /* right: 10px; */
+    /* bottom: 0; */
+    /* width: 100%;  */
+}

@@ -1,0 +1,95 @@
+/* 
+# Box model in css
+Height
+Width
+Border
+Padding
+Margin
+
+# Border 
+border-width:2px;
+border-style:solid/dotted/dashed;
+border-color:black;
+
+border:2px solid red;
+
+# Padding
+padding-left
+padding-right
+padding-top
+padding-bottom
+
+# Display Property
+display:inline/block/inline-block/none;
+1.inline - Takes only the space required by the element.(no margin/padding)
+2.block - Takes full space available in width
+3. inline-block - Similar to inline but we can set margin & padding
+4. none - To remove element from document flow
+
+block -(100% width) Ex : div, h1
+inline - required Ex : span, button, input, a tag
+
+
+# Visibility
+visibility:hidden;
+
+
+*/
+
+/* 
+    div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    /* border:2px solid black; */
+    /* text-align: center; 
+}
+*/
+ 
+/* 
+h1{
+    height: 100px;
+    width: 200px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+    background-color: turquoise;
+    text-align: center;
+} */
+
+div{
+    /* height: 100px;
+    width: 100px; */
+    /* background-color: pink;
+    border: 2px solid black; */
+    /* border-radius: 15px; */
+    /* border-radius: 50%; used to make circle */
+    /* text-align: center; */
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    /* padding: 1px 2px 3px 4px; */
+
+    /* margin-left: 25px;
+    margin-right: 25px; */
+    /* margin-bottom: 25px; */
+
+    /* padding: 25px;
+    margin: 25px; */
+
+    /* =========================================================== */
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+
+    display: inline-block;
+}
+
+#box2{
+    /* display: none;   hide the box */
+    visibility: hidden;
+    /* Note : When visibility is set to none,space for the element is reserved but for display set to none ,no space is reserved or blocked for the element. */
+}

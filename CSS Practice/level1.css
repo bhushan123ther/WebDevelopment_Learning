@@ -1,0 +1,61 @@
+/* Text-properties
+   1. text-align:left/rigth/center 
+   2. text-decoration:underline/none
+   3. font-weight:normal/bold/bolder/lighter
+   font-weight:100-900
+   4. font-family:'Times New Roman';
+   5. text-transform:uppercase/lowercase/capitalize/none
+   */
+/* 
+
+/* 
+    Units in css
+    Absolute
+
+    pixels(px) [96px = 1 inch = 2.54cm]
+    font-size:2px; - font size increase
+    
+    line-height:normal / 10px; - increase space between two line
+
+*/
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: red underline;
+}    */
+
+#h1{
+     font-weight: normal;
+}
+
+#h2{
+    font-weight: bold;
+}
+
+#h3{
+    font-weight: lighter;
+}
+
+#h4{
+    font-weight: bolder;
+}
+
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+#one{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    
+}
+
+#two{
+    font-family: roboto,arial ,sans-serif;
+    text-transform: none;
+}

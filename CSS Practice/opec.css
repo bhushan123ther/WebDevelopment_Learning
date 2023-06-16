@@ -1,0 +1,27 @@
+/* opacity(0 to 1) - It controls the color visibility 
+0 - no visibility
+1 - completely visibility
+
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+   
+    display: inline-block;
+    /* background-color: red; */
+    /* opacity: 0.5; */
+    /* background-color: rgba(255, 0,0, 0.5); */
+}
+
+#box1{
+    background-color: rgba(0, 0,255, 0.5);
+}
+#box2{
+    background-color: rgba(0, 0,255, 0.75);
+}
+#box3{
+    background-color: rgba(0, 0,255, 1);
+}

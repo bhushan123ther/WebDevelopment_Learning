@@ -1,0 +1,33 @@
+h1{
+    color:brown;
+}
+
+button{
+    color: black;
+    background-color: yellow;
+}
+
+body{
+    background-color:rgb(143, 143, 36);
+}
+/* color system
+1.rgb(34,5,0) - red green black - way to write color , range - 0 to 255 (for each r g b: 0 - 255)
+
+2.Hex(Hexadecimal) - short way to write rgb color , range - 0 to 15 (00 - ff)(10 - 15 = a - f)*/
+
+/* color palette use to generate colur combinations 
+coolors website
+canva website */
+body{
+    /* background-color: #005678; */
+    background-color: #ff00ff;
+}
+
+/* selectors 
+
+universal selector = *{}
+element selector   = h1{}
+id selector        = #myId{} , id means any unique name
+class selector     = .myClass{} , It is used to provide color to multiple element
+
+ */

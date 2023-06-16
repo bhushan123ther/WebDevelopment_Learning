@@ -1,0 +1,36 @@
+/* Transitions */
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s; */
+
+    /* transition: all 2s ease-in 1s ; */
+
+    /* transform:rotate(90deg); */
+    /* rotate: x 180deg; */
+
+    transition: all 2s ease-in;
+}
+
+div:hover{
+    /* cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 20px ; */
+
+    /* transform: scale(2);
+    transform: rotate(180deg); */
+
+    transform: translateX(200px); 
+    transform: translate(100px,50px);
+}
+
+div:active{
+    background-color: green;
+}
