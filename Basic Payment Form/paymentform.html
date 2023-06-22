@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form task</title>
+    <link rel="stylesheet" href="ftask.css">
+</head>
+<body>
+  <form>
+    <h3>PAYMENT FORM</h3>
+      <hr>
+        <p>Note: * Requird Field</p>
+          <h2>User Information</h2> <!--simply heading-->
+            <label >Name: *</label> <input type="text" placeholder="Enter a full name" Required><br><br> <!--placeholder is use for to enter name in box-->
+            <label >Email: *</label> <input type="email" placeholder="Enter a email" Requird><br><br>
+            <label >Contact number: *</label> <input type="number"placeholder="contact number" required><br><br>
+            <label >Address :</label> <textarea name="" id="" cols="30" rows="3" placeholder="Enter a adress"></textarea><br><br>
+            <label >Pincode: *</label> <input type="number"placeholder="pincode" Requird><br><br>
+            <label >Card:</label>
+            <input type="radio" name="card" id="visa"> <!--radio tag is use for selecting card-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1280px-Visa_Inc._logo.svg.png" alt="" class="visa">
+            <input type="radio" name="card" id="rupay">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/RuPay.svg/1200px-RuPay.svg.png" alt="" class="rupay">
+            <input type="radio" name="card" id="mastercard">
+            <img src="https://pngimg.com/uploads/mastercard/mastercard_PNG23.png" alt="" class="mastercard"><br><br>
+            <label >cvv: *</label> <input type="password" placeholder="cvv" Requird><br><br>
+           <label >Exp.Date: * </label> <input type="date" Requird><br><br>
+         <button>Paynow</button>
+      </form>
+   </body>
+</html>
